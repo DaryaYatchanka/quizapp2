@@ -10,29 +10,17 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Builder
-@NoArgsConstructor
 @AllArgsConstructor
-public class Question {
+@NoArgsConstructor
+public class Answer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String topic;
-
-    private String questionText;
-
-    private String imageUrl;
-
-    private String questionType;
-
-    private Integer points;
-
-    /*TO do : 1.  think about points,
-              2.  DM relationships with Answer,
-
-
-
+    /*
+       To Do:
+             1.Come up with necessary fields ->
+             2. DM relationships with Answer;
      */
-
 }
