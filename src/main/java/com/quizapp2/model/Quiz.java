@@ -21,11 +21,13 @@ public class Quiz {
 
     private Integer timeLimit;
 
-    /* To do - DM  relationships with User;
-       DM relationships with Question;
-       ? Do I need a Timestamp or simplify?
-     */
-
+  /* To do:
+       1. DM  relationships with User;
+       2. DM relationships with Question;
+       3. Do I need a Timestamp or simplify?
+       4. Good visual and logical understanding on what features I do need from User perspective;
+       5. Before accepting DM -> this of scalability;
+ */
 
 
 
