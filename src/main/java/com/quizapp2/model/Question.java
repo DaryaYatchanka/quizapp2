@@ -28,6 +28,8 @@ public class Question {
 
     private Integer points;
 
-    //TO do : think about points, Data Model
+    /*To do : 1.  think about points,
+          2.  DM relationships with Answer;
+ */
 
 }
