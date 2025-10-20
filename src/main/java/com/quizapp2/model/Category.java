@@ -16,6 +16,10 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private String subject;
+    private String subTopic;
+    private Integer level;
+
     /*To do:
        1. Come up with DM to Question/Quiz;
      */
